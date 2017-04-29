@@ -19,7 +19,7 @@
     }
   ],
   "require": {
-    "php": "~7.0",
+    "php": "~7.1",
     "nette/di": "~2.4",
     "nette/http": "~2.4",
     "league/oauth2-client": "^2.2",

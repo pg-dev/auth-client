@@ -113,7 +113,7 @@ class UserLoginService
             $accessToken
         );
 
-        return UserDTO::createFromJsonString((string) (new Client)->send($request)->getBody());
+        return UserDTO::createFromJsonString($accessToken, (string) (new Client)->send($request)->getBody());
     }
 
     /**
