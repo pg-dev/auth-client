@@ -1,0 +1,44 @@
+{
+  "name": "pg-dev/auth-client",
+  "license": [
+    "MIT"
+  ],
+  "type": "library",
+  "description": "Auth client for pgAuth server",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "keywords": [
+    "pg-dev",
+    "nette",
+    "auth client"
+  ],
+  "authors": [
+    {
+      "name": "Jakub Janata",
+      "email": "jakubjanata@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.0",
+    "nette/di": "~2.4",
+    "nette/http": "~2.4",
+    "league/oauth2-client": "^2.2",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "require-dev": {
+    "tracy/tracy": "~2.4",
+    "nette/tester": "dev-master",
+    "squizlabs/php_codesniffer": "^2.7",
+    "phpstan/phpstan": "~0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "PgDev\\AuthClient\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PgDev\\AuthClient\\Tests\\": "tests/"
+    }
+  }
+}

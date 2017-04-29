@@ -1,0 +1,3 @@
+parameters:
+    ignoreErrors:
+        - '#Parameter \#1 $config of method Nette\\DI\\CompilerExtension::setConfig\(\) expects mixed[], mixed[]|string given#'

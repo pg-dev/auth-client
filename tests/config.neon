@@ -1,0 +1,14 @@
+extensions:
+    pgDevClient: PgDev\AuthClient\DI\AuthClientExtension
+
+pgDevClient:
+    client:
+        redirectUri: 'http://test.com'
+        clientId: 1
+        clientSecret: secret
+        scopes:
+            - read_user_info
+            - read_global_info
+
+services:
+    - PgDev\AuthClient\Tests\Mock\AuthUserRepositoryMock
