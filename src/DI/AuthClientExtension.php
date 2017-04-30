@@ -22,12 +22,12 @@ class AuthClientExtension extends CompilerExtension
     /** @var array */
     public $defaultConfig = [
         'authServer' => [
-            'urlAuthorize' => 'https://pg-auth.ifire.cz/oauth2/v1/authorize',
-            'urlAccessToken' => 'https://pg-auth.ifire.cz/oauth2/v1/access-token',
-            'urlResourceOwnerDetails' => 'https://pg-auth.ifire.cz/oauth2/v1/details'
+            'urlAuthorize' => 'https://auth.pg-dev.cz/oauth2/v1/authorize',
+            'urlAccessToken' => 'https://auth.pg-dev.cz/oauth2/v1/access-token',
+            'urlResourceOwnerDetails' => 'https://auth.pg-dev.cz/oauth2/v1/details'
         ],
         'resourceServer' => [
-            'baseUri' => 'https://pg-auth.ifire.cz'
+            'baseUri' => 'https://auth.pg-dev.cz'
         ],
         'client' => [
             'redirectUri' => null,

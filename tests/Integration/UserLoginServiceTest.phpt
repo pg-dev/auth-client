@@ -38,7 +38,7 @@ class UserLoginServiceTest extends TestCase
 
         // test url
         $url = $userLoginService->getAuthorizationUrl();
-        $pattern = '#^https:\/\/pg-auth.ifire.cz\/oauth2\/v1\/authorize\?' .
+        $pattern = '#^https:\/\/auth.pg-dev.cz\/oauth2\/v1\/authorize\?' .
             'scope=read_user_info\%20read_global_info&' .
             'state=[a-z0-9]+&' .
             'response_type=code&' .
